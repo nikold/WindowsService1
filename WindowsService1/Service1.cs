@@ -22,13 +22,13 @@ namespace MyFirstService
         protected override void OnStart(string[] args)
         {
             file = new StreamWriter(new FileStream("MyFirstService.log", FileMode.Append));
-            this.file.WriteLine(System.DateTime.Now.ToString() + this.ServiceName + " started!");
+            this.file.WriteLine(DateTime.Now.ToString() + this.ServiceName + " started!");
             this.file.Flush();
         }
 
         protected override void OnStop()
         {
-            this.file.WriteLine(System.DateTime.Now.ToString() + this.ServiceName + " stopped!");
+            this.file.WriteLine(DateTime.Now.ToString() + this.ServiceName + " stopped!");
             this.file.Flush();
             this.file.Close();
         }
