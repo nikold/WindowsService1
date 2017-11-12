@@ -31,7 +31,7 @@
             // 
             // MyFirstService
             // 
-            this.ServiceName = "Service1";
+            this.ServiceName = "MyFirstService";
 
         }
 

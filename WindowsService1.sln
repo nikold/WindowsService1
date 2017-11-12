@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService1", "WindowsS
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FirstServices", "FirstServices\FirstServices.vdproj", "{644F82AA-0ACE-4E6C-88F1-E1B67DBB303F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServiceController", "MyServiceController\MyServiceController.csproj", "{2DFF4E0E-D4B0-4B37-81B3-E84801B151A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{5BC6DD8C-60B1-4564-8E36-86EF09E30509}.Release|Any CPU.Build.0 = Release|Any CPU
 		{644F82AA-0ACE-4E6C-88F1-E1B67DBB303F}.Debug|Any CPU.ActiveCfg = Debug
 		{644F82AA-0ACE-4E6C-88F1-E1B67DBB303F}.Release|Any CPU.ActiveCfg = Release
+		{2DFF4E0E-D4B0-4B37-81B3-E84801B151A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFF4E0E-D4B0-4B37-81B3-E84801B151A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFF4E0E-D4B0-4B37-81B3-E84801B151A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFF4E0E-D4B0-4B37-81B3-E84801B151A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
